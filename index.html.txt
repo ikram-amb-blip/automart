@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AutoMart - Buy & Sell Used Cars</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">🚗 AutoMart</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#cars">Browse Cars</a>
+    <a href="#sell">Sell Your Car</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Buy & Sell Used Cars Easily</h1>
+  <p>Drive Your Dream Car Today</p>
+  <a href="#cars" class="btn">Browse Cars</a>
+</section>
+
+<section id="cars" class="cars-section">
+  <h2>Featured Cars</h2>
+  <div class="cars">
+
+    <div class="car-card">
+      <img src="https://source.unsplash.com/400x250/?maruti,car" alt="">
+      <h3>Maruti Swift 2020</h3>
+      <p>₹5,50,000 | 30,000 KM</p>
+      <button onclick="contact()">View Details</button>
+    </div>
+
+    <div class="car-card">
+      <img src="https://source.unsplash.com/400x250/?hyundai,creta" alt="">
+      <h3>Hyundai Creta 2021</h3>
+      <p>₹9,80,000 | 20,000 KM</p>
+      <button onclick="contact()">View Details</button>
+    </div>
+
+    <div class="car-card">
+      <img src="https://source.unsplash.com/400x250/?bmw,car" alt="">
+      <h3>BMW 3 Series 2019</h3>
+      <p>₹28,00,000 | 25,000 KM</p>
+      <button onclick="contact()">View Details</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="sell" class="sell-section">
+  <h2>Sell Your Car</h2>
+  <p>Want to sell your car? Contact us today!</p>
+  <a href="#contact" class="btn">Sell Now</a>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <p>📞 +91 9XXXXXXXXX</p>
+  <p>📧 contact.automart@gmail.com</p>
+  <a href="https://wa.me/919XXXXXXXXX" class="btn">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 AutoMart | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
